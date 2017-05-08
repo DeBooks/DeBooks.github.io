@@ -1,0 +1,70 @@
+/* -- Menu de navegación -- */
+
+.resimg{
+
+    max-width: 100%;
+    
+}
+
+.jumbotron{
+    color: #000;
+    padding: 20px 0;
+}
+
+.navbar{
+    background-color: #fff;
+    margin-bottom: 0;   
+}
+
+
+/* -- Section main -- */
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    color: #000;
+}
+
+.post .post-title a{
+    color: #000;
+    text-decoration: none;
+}
+
+.post .thumb{
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img{
+    width: 100%;
+}
+
+
+
+/* -- Aside -- */
+
+
+aside > h4{
+    color: #fff;
+}
+
+aside h4 a{
+    color: #000;
+}
+
+aside h4 a:hover{
+    text-decoration: none;
+    color: #3C77E6;
+}
+
+.uhm{
+    width: 225px;
+    height: 224px;
+}
+

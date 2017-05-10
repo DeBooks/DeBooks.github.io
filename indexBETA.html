@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimun-scale=1">
+		<title></title>
+		<style>
+			.container {
+				display: block;
+				background-color: rgba( 14, 9, 46, 0 );
+			}
+			nav {
+				margin-left: 45%;
+				display: block;
+			}
+			ul {
+				display: block;
+				list-style: none;
+			}
+			ul .titulo {
+				background-color: gray;
+				text-align: center;
+				width: 160px;
+				height: 60px;
+				color: aqua;
+			}
+			ul li .lItems {
+				overflow: hidden;
+			}
+			.fadeIn {
+				animation-name: fadeIn;
+				animation-duration: 2s;
+				animation-direction: normal;
+				animation-iteration-count: 1;
+				animation-timing-function: ease-in;
+			}
+			.fadeOut {
+				animation-name: fadeOut;
+				animation-duration: 2s;
+				animation-direction: normal;
+				animation-iteration-count: 1;
+				animation-timing-function: ease-in;
+				opacity: 0;
+			}
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+			@keyframes fadeOut {
+				from {
+					opacity: 1;
+				}
+				to {
+					opacity: 0;
+				}
+			}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<nav class="">
+			<ul>
+				<li class="titulo"> <span onclick="aniKEK();">Menu</span>
+				<ul id="lis">
+					<li class="lItems"><a href="#">Inicio</a></li>
+					<li class="lItems"><a href="#">ajd</a></li>
+					<li class="lItems"><a href="#">asd</a></li>
+					<li class="lItems"><a href="#">enansffasf</a></li>
+				</ul>
+				</li>
+			</ul>
+		</nav>
+		</div>
+		<script src="js/animMenu.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+	</body>
+</html>

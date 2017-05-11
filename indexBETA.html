@@ -35,9 +35,9 @@
 				animation-timing-function: ease-in;
 			}
 			.fadeOut {
-				animation-name: fadeIn;
+				animation-name: fadeOut;
 				animation-duration: 2s;
-				animation-direction: reverse;
+				animation-direction: normal;
 				animation-iteration-count: 1;
 				animation-timing-function: ease-in;
 				opacity: 0;
@@ -50,6 +50,13 @@
 					opacity: 1;
 				}
 			}
+			@keyframes fadeOut {
+				from {
+					opacity: 1;
+				}
+				to {
+					opacity: 0;
+				}
 			}
 		</style>
 	</head>
@@ -58,7 +65,7 @@
 		<nav class="">
 			<ul>
 				<li class="titulo"> <span onclick="aniKEK();">Menu</span>
-				<ul id="lis fadeOut">
+				<ul id="lis">
 					<li class="lItems"><a href="#">Inicio</a></li>
 					<li class="lItems"><a href="#">ajd</a></li>
 					<li class="lItems"><a href="#">asd</a></li>
